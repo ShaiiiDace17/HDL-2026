@@ -1,0 +1,2 @@
+VCD info: dumpfile labs/lab01/lab01_hello_logic.vcd opened for output.
+PASS: Lab 01 hello_logic

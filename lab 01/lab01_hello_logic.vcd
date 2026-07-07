@@ -1,0 +1,151 @@
+$date
+	Tue Jun 23 14:37:08 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module lab01_hello_logic_tb $end
+$var wire 8 ! a_xor_b [7:0] $end
+$var wire 8 " a_or_b [7:0] $end
+$var wire 8 # a_not [7:0] $end
+$var wire 8 $ a_and_b [7:0] $end
+$var parameter 32 % WIDTH $end
+$var reg 8 & a [7:0] $end
+$var reg 8 ' b [7:0] $end
+$scope module dut $end
+$var wire 8 ( a [7:0] $end
+$var wire 8 ) a_and_b [7:0] $end
+$var wire 8 * a_not [7:0] $end
+$var wire 8 + a_or_b [7:0] $end
+$var wire 8 , a_xor_b [7:0] $end
+$var wire 8 - b [7:0] $end
+$var parameter 32 . WIDTH $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 / i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 .
+b1000 %
+$end
+#0
+$dumpvars
+b0 /
+b1000000 -
+b11010010 ,
+b11010010 +
+b1101101 *
+b0 )
+b10010010 (
+b1000000 '
+b10010010 &
+b0 $
+b1101101 #
+b11010010 "
+b11010010 !
+$end
+#10000
+b110101 "
+b110101 +
+b110101 !
+b110101 ,
+b11111011 #
+b11111011 *
+b110001 '
+b110001 -
+b100 &
+b100 (
+b1 /
+#20000
+b10000110 $
+b10000110 )
+b11000110 "
+b11000110 +
+b1000000 !
+b1000000 ,
+b1111001 #
+b1111001 *
+b11000110 '
+b11000110 -
+b10000110 &
+b10000110 (
+b10 /
+#30000
+b0 $
+b0 )
+b111011 "
+b111011 +
+b111011 !
+b111011 ,
+b11001101 #
+b11001101 *
+b1001 '
+b1001 -
+b110010 &
+b110010 (
+b11 /
+#40000
+b10000000 $
+b10000000 )
+b10000110 "
+b10000110 +
+b110 !
+b110 ,
+b1111111 #
+b1111111 *
+b10000110 '
+b10000110 -
+b10000000 &
+b10000000 (
+b100 /
+#50000
+b10011010 $
+b10011010 )
+b10111111 "
+b10111111 +
+b100101 !
+b100101 ,
+b1000100 #
+b1000100 *
+b10011110 '
+b10011110 -
+b10111011 &
+b10111011 (
+b101 /
+#60000
+b11000110 $
+b11000110 )
+b11110110 "
+b11110110 +
+b110000 !
+b110000 ,
+b1001 #
+b1001 *
+b11000110 '
+b11000110 -
+b11110110 &
+b11110110 (
+b110 /
+#70000
+b1100000 $
+b1100000 )
+b11111111 "
+b11111111 +
+b10011111 !
+b10011111 ,
+b11 #
+b11 *
+b1100011 '
+b1100011 -
+b11111100 &
+b11111100 (
+b111 /
+#80000
+b1000 /
+#90000
