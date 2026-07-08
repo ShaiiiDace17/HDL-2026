@@ -1,0 +1,96 @@
+$date
+	Thu Jul 09 01:02:51 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_compare_alu $end
+$var wire 1 ! zero $end
+$var wire 4 " result [3:0] $end
+$var wire 1 # lt $end
+$var wire 1 $ gt $end
+$var wire 1 % eq $end
+$var reg 4 & a [3:0] $end
+$var reg 4 ' b [3:0] $end
+$var reg 3 ( op [2:0] $end
+$var integer 32 ) i [31:0] $end
+$scope module alu $end
+$var wire 4 * a [3:0] $end
+$var wire 4 + b [3:0] $end
+$var wire 3 , op [2:0] $end
+$var wire 1 ! zero $end
+$var reg 4 - result [3:0] $end
+$upscope $end
+$scope module cmp $end
+$var wire 4 . a [3:0] $end
+$var wire 4 / b [3:0] $end
+$var wire 1 # lt $end
+$var wire 1 $ gt $end
+$var wire 1 % eq $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11 /
+b1001 .
+b1100 -
+b0 ,
+b11 +
+b1001 *
+b0 )
+b0 (
+b11 '
+b1001 &
+0%
+1$
+0#
+b1100 "
+0!
+$end
+#10000
+b110 "
+b110 -
+b1 (
+b1 ,
+b1 )
+#20000
+b1 "
+b1 -
+b10 (
+b10 ,
+b10 )
+#30000
+b1011 "
+b1011 -
+b11 (
+b11 ,
+b11 )
+#40000
+b110 "
+b110 -
+b100 (
+b100 ,
+b100 )
+#50000
+1!
+b0 "
+b0 -
+b1 (
+b1 ,
+1%
+0$
+b101 '
+b101 +
+b101 /
+b101 &
+b101 *
+b101 .
+b101 )
+#60000
