@@ -1,0 +1,644 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000025eb2002ca0 .scope module, "tb_guardian_school_zone_controller" "tb_guardian_school_zone_controller" 2 3;
+ .timescale -9 -12;
+v0000025eb207fcd0_0 .net "beacon_light", 0 0, v0000025eb1ffed50_0;  1 drivers
+v0000025eb20801d0_0 .var "clk", 0 0;
+v0000025eb207f9b0_0 .net "crossing_light", 0 0, v0000025eb202cc80_0;  1 drivers
+v0000025eb20806d0_0 .var "emergency_request", 0 0;
+v0000025eb207fa50_0 .net "main_signal", 2 0, v0000025eb2001180_0;  1 drivers
+v0000025eb207fff0_0 .var "ped_request", 0 0;
+v0000025eb207faf0_0 .var "reset", 0 0;
+v0000025eb207f7d0_0 .var "school_hours", 0 0;
+v0000025eb2080130_0 .net "side_signal", 2 0, v0000025eb207fe10_0;  1 drivers
+E_0000025eb1ffaee0 .event anyedge, v0000025eb2080090_0;
+E_0000025eb1ffb660 .event posedge, v0000025eb1fbb950_0;
+S_0000025eb1ffebc0 .scope function.vec4.s96, "state_name" "state_name" 2 50, 2 50 0, S_0000025eb2002ca0;
+ .timescale -9 -12;
+v0000025eb1ffe490_0 .var "s", 2 0;
+; Variable state_name is vec4 return value of scope S_0000025eb1ffebc0
+TD_tb_guardian_school_zone_controller.state_name ;
+    %load/vec4 v0000025eb1ffe490_0;
+    %dup/vec4;
+    %pushi/vec4 0, 0, 3;
+    %cmp/u;
+    %jmp/1 T_0.0, 6;
+    %dup/vec4;
+    %pushi/vec4 1, 0, 3;
+    %cmp/u;
+    %jmp/1 T_0.1, 6;
+    %dup/vec4;
+    %pushi/vec4 2, 0, 3;
+    %cmp/u;
+    %jmp/1 T_0.2, 6;
+    %dup/vec4;
+    %pushi/vec4 3, 0, 3;
+    %cmp/u;
+    %jmp/1 T_0.3, 6;
+    %dup/vec4;
+    %pushi/vec4 4, 0, 3;
+    %cmp/u;
+    %jmp/1 T_0.4, 6;
+    %dup/vec4;
+    %pushi/vec4 5, 0, 3;
+    %cmp/u;
+    %jmp/1 T_0.5, 6;
+    %dup/vec4;
+    %pushi/vec4 6, 0, 3;
+    %cmp/u;
+    %jmp/1 T_0.6, 6;
+    %pushi/vec4 0, 0, 32; draw_string_vec4
+    %pushi/vec4 5590603, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 1313822542, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %ret/vec4 0, 0, 96;  Assign to state_name (store_vec4_to_lval)
+    %jmp T_0.8;
+T_0.0 ;
+    %pushi/vec4 0, 0, 32; draw_string_vec4
+    %pushi/vec4 4673375, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 1296124238, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %ret/vec4 0, 0, 96;  Assign to state_name (store_vec4_to_lval)
+    %jmp T_0.8;
+T_0.1 ;
+    %pushi/vec4 1128355156, 0, 32; draw_string_vec4
+    %pushi/vec4 1229934175, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 1296124238, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %ret/vec4 0, 0, 96;  Assign to state_name (store_vec4_to_lval)
+    %jmp T_0.8;
+T_0.2 ;
+    %pushi/vec4 16716, 0, 32; draw_string_vec4
+    %pushi/vec4 1281315668, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 1330667329, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %ret/vec4 0, 0, 96;  Assign to state_name (store_vec4_to_lval)
+    %jmp T_0.8;
+T_0.3 ;
+    %pushi/vec4 0, 0, 32; draw_string_vec4
+    %pushi/vec4 4673375, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 1397310533, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %ret/vec4 0, 0, 96;  Assign to state_name (store_vec4_to_lval)
+    %jmp T_0.8;
+T_0.4 ;
+    %pushi/vec4 1128355156, 0, 32; draw_string_vec4
+    %pushi/vec4 1229934175, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 1397310533, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %ret/vec4 0, 0, 96;  Assign to state_name (store_vec4_to_lval)
+    %jmp T_0.8;
+T_0.5 ;
+    %pushi/vec4 16716, 0, 32; draw_string_vec4
+    %pushi/vec4 1281315668, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 1330667330, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %ret/vec4 0, 0, 96;  Assign to state_name (store_vec4_to_lval)
+    %jmp T_0.8;
+T_0.6 ;
+    %pushi/vec4 1347568965, 0, 32; draw_string_vec4
+    %pushi/vec4 1297110111, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 1213156420, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %ret/vec4 0, 0, 96;  Assign to state_name (store_vec4_to_lval)
+    %jmp T_0.8;
+T_0.8 ;
+    %pop/vec4 1;
+    %end;
+S_0000025eb202caf0 .scope module, "uut" "guardian_school_zone_controller" 2 15, 3 45 0, S_0000025eb2002ca0;
+ .timescale -9 -12;
+    .port_info 0 /INPUT 1 "clk";
+    .port_info 1 /INPUT 1 "reset";
+    .port_info 2 /INPUT 1 "ped_request";
+    .port_info 3 /INPUT 1 "emergency_request";
+    .port_info 4 /INPUT 1 "school_hours";
+    .port_info 5 /OUTPUT 3 "main_signal";
+    .port_info 6 /OUTPUT 3 "side_signal";
+    .port_info 7 /OUTPUT 1 "crossing_light";
+    .port_info 8 /OUTPUT 1 "beacon_light";
+P_0000025eb1fd2ce0 .param/l "ALL_STOP_A" 1 3 64, C4<010>;
+P_0000025eb1fd2d18 .param/l "ALL_STOP_B" 1 3 67, C4<101>;
+P_0000025eb1fd2d50 .param/l "ALL_STOP_TICKS" 1 3 74, C4<0010>;
+P_0000025eb1fd2d88 .param/l "CAUTION_MAIN" 1 3 63, C4<001>;
+P_0000025eb1fd2dc0 .param/l "CAUTION_SIDE" 1 3 66, C4<100>;
+P_0000025eb1fd2df8 .param/l "CAUTION_TICKS" 1 3 73, C4<0011>;
+P_0000025eb1fd2e30 .param/l "GO_MAIN" 1 3 62, C4<000>;
+P_0000025eb1fd2e68 .param/l "GO_MAIN_NORMAL_TICKS" 1 3 71, C4<1001>;
+P_0000025eb1fd2ea0 .param/l "GO_MAIN_PED_TICKS" 1 3 72, C4<0101>;
+P_0000025eb1fd2ed8 .param/l "GO_SIDE" 1 3 65, C4<011>;
+P_0000025eb1fd2f10 .param/l "GO_SIDE_TICKS" 1 3 75, C4<0111>;
+P_0000025eb1fd2f48 .param/l "GREEN" 1 3 59, C4<001>;
+P_0000025eb1fd2f80 .param/l "PREEMPT_HOLD" 1 3 68, C4<110>;
+P_0000025eb1fd2fb8 .param/l "RED" 1 3 57, C4<100>;
+P_0000025eb1fd2ff0 .param/l "YELLOW" 1 3 58, C4<010>;
+v0000025eb2002e30_0 .var "beacon_counter", 3 0;
+v0000025eb1ffed50_0 .var "beacon_light", 0 0;
+v0000025eb1fbb950_0 .net "clk", 0 0, v0000025eb20801d0_0;  1 drivers
+v0000025eb202cc80_0 .var "crossing_light", 0 0;
+v0000025eb1fd3030_0 .net "emergency_request", 0 0, v0000025eb20806d0_0;  1 drivers
+v0000025eb20010e0_0 .var "limit", 3 0;
+v0000025eb2001180_0 .var "main_signal", 2 0;
+v0000025eb207feb0_0 .net "ped_request", 0 0, v0000025eb207fff0_0;  1 drivers
+v0000025eb207ff50_0 .net "reset", 0 0, v0000025eb207faf0_0;  1 drivers
+v0000025eb207fb90_0 .net "school_hours", 0 0, v0000025eb207f7d0_0;  1 drivers
+v0000025eb207fe10_0 .var "side_signal", 2 0;
+v0000025eb2080090_0 .var "state", 2 0;
+v0000025eb207fd70_0 .var "timer", 3 0;
+E_0000025eb1ffbbe0 .event posedge, v0000025eb207ff50_0, v0000025eb1fbb950_0;
+E_0000025eb1ffb020 .event anyedge, v0000025eb2080090_0, v0000025eb207feb0_0;
+    .scope S_0000025eb202caf0;
+T_1 ;
+    %wait E_0000025eb1ffb020;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000025eb202cc80_0, 0, 1;
+    %load/vec4 v0000025eb2080090_0;
+    %dup/vec4;
+    %pushi/vec4 0, 0, 3;
+    %cmp/u;
+    %jmp/1 T_1.0, 6;
+    %dup/vec4;
+    %pushi/vec4 1, 0, 3;
+    %cmp/u;
+    %jmp/1 T_1.1, 6;
+    %dup/vec4;
+    %pushi/vec4 2, 0, 3;
+    %cmp/u;
+    %jmp/1 T_1.2, 6;
+    %dup/vec4;
+    %pushi/vec4 3, 0, 3;
+    %cmp/u;
+    %jmp/1 T_1.3, 6;
+    %dup/vec4;
+    %pushi/vec4 4, 0, 3;
+    %cmp/u;
+    %jmp/1 T_1.4, 6;
+    %dup/vec4;
+    %pushi/vec4 5, 0, 3;
+    %cmp/u;
+    %jmp/1 T_1.5, 6;
+    %dup/vec4;
+    %pushi/vec4 6, 0, 3;
+    %cmp/u;
+    %jmp/1 T_1.6, 6;
+    %pushi/vec4 1, 0, 3;
+    %store/vec4 v0000025eb2001180_0, 0, 3;
+    %pushi/vec4 4, 0, 3;
+    %store/vec4 v0000025eb207fe10_0, 0, 3;
+    %pushi/vec4 9, 0, 4;
+    %store/vec4 v0000025eb20010e0_0, 0, 4;
+    %jmp T_1.8;
+T_1.0 ;
+    %pushi/vec4 1, 0, 3;
+    %store/vec4 v0000025eb2001180_0, 0, 3;
+    %pushi/vec4 4, 0, 3;
+    %store/vec4 v0000025eb207fe10_0, 0, 3;
+    %load/vec4 v0000025eb207feb0_0;
+    %flag_set/vec4 8;
+    %jmp/0 T_1.9, 8;
+    %pushi/vec4 5, 0, 4;
+    %jmp/1 T_1.10, 8;
+T_1.9 ; End of true expr.
+    %pushi/vec4 9, 0, 4;
+    %jmp/0 T_1.10, 8;
+ ; End of false expr.
+    %blend;
+T_1.10;
+    %store/vec4 v0000025eb20010e0_0, 0, 4;
+    %jmp T_1.8;
+T_1.1 ;
+    %pushi/vec4 2, 0, 3;
+    %store/vec4 v0000025eb2001180_0, 0, 3;
+    %pushi/vec4 4, 0, 3;
+    %store/vec4 v0000025eb207fe10_0, 0, 3;
+    %pushi/vec4 3, 0, 4;
+    %store/vec4 v0000025eb20010e0_0, 0, 4;
+    %jmp T_1.8;
+T_1.2 ;
+    %pushi/vec4 4, 0, 3;
+    %store/vec4 v0000025eb2001180_0, 0, 3;
+    %pushi/vec4 4, 0, 3;
+    %store/vec4 v0000025eb207fe10_0, 0, 3;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000025eb202cc80_0, 0, 1;
+    %pushi/vec4 2, 0, 4;
+    %store/vec4 v0000025eb20010e0_0, 0, 4;
+    %jmp T_1.8;
+T_1.3 ;
+    %pushi/vec4 4, 0, 3;
+    %store/vec4 v0000025eb2001180_0, 0, 3;
+    %pushi/vec4 1, 0, 3;
+    %store/vec4 v0000025eb207fe10_0, 0, 3;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000025eb202cc80_0, 0, 1;
+    %pushi/vec4 7, 0, 4;
+    %store/vec4 v0000025eb20010e0_0, 0, 4;
+    %jmp T_1.8;
+T_1.4 ;
+    %pushi/vec4 4, 0, 3;
+    %store/vec4 v0000025eb2001180_0, 0, 3;
+    %pushi/vec4 2, 0, 3;
+    %store/vec4 v0000025eb207fe10_0, 0, 3;
+    %pushi/vec4 3, 0, 4;
+    %store/vec4 v0000025eb20010e0_0, 0, 4;
+    %jmp T_1.8;
+T_1.5 ;
+    %pushi/vec4 4, 0, 3;
+    %store/vec4 v0000025eb2001180_0, 0, 3;
+    %pushi/vec4 4, 0, 3;
+    %store/vec4 v0000025eb207fe10_0, 0, 3;
+    %pushi/vec4 2, 0, 4;
+    %store/vec4 v0000025eb20010e0_0, 0, 4;
+    %jmp T_1.8;
+T_1.6 ;
+    %pushi/vec4 1, 0, 3;
+    %store/vec4 v0000025eb2001180_0, 0, 3;
+    %pushi/vec4 4, 0, 3;
+    %store/vec4 v0000025eb207fe10_0, 0, 3;
+    %pushi/vec4 1, 0, 4;
+    %store/vec4 v0000025eb20010e0_0, 0, 4;
+    %jmp T_1.8;
+T_1.8 ;
+    %pop/vec4 1;
+    %jmp T_1;
+    .thread T_1, $push;
+    .scope S_0000025eb202caf0;
+T_2 ;
+    %wait E_0000025eb1ffbbe0;
+    %load/vec4 v0000025eb207ff50_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_2.0, 8;
+    %pushi/vec4 0, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %pushi/vec4 0, 0, 4;
+    %assign/vec4 v0000025eb207fd70_0, 0;
+    %jmp T_2.1;
+T_2.0 ;
+    %load/vec4 v0000025eb1fd3030_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_2.2, 8;
+    %pushi/vec4 0, 0, 4;
+    %assign/vec4 v0000025eb207fd70_0, 0;
+    %load/vec4 v0000025eb2080090_0;
+    %dup/vec4;
+    %pushi/vec4 3, 0, 3;
+    %cmp/u;
+    %jmp/1 T_2.4, 6;
+    %dup/vec4;
+    %pushi/vec4 4, 0, 3;
+    %cmp/u;
+    %jmp/1 T_2.5, 6;
+    %dup/vec4;
+    %pushi/vec4 5, 0, 3;
+    %cmp/u;
+    %jmp/1 T_2.6, 6;
+    %dup/vec4;
+    %pushi/vec4 1, 0, 3;
+    %cmp/u;
+    %jmp/1 T_2.7, 6;
+    %dup/vec4;
+    %pushi/vec4 2, 0, 3;
+    %cmp/u;
+    %jmp/1 T_2.8, 6;
+    %dup/vec4;
+    %pushi/vec4 0, 0, 3;
+    %cmp/u;
+    %jmp/1 T_2.9, 6;
+    %dup/vec4;
+    %pushi/vec4 6, 0, 3;
+    %cmp/u;
+    %jmp/1 T_2.10, 6;
+    %pushi/vec4 2, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.12;
+T_2.4 ;
+    %pushi/vec4 4, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.12;
+T_2.5 ;
+    %pushi/vec4 5, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.12;
+T_2.6 ;
+    %pushi/vec4 6, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.12;
+T_2.7 ;
+    %pushi/vec4 2, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.12;
+T_2.8 ;
+    %pushi/vec4 6, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.12;
+T_2.9 ;
+    %pushi/vec4 6, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.12;
+T_2.10 ;
+    %pushi/vec4 6, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.12;
+T_2.12 ;
+    %pop/vec4 1;
+    %jmp T_2.3;
+T_2.2 ;
+    %load/vec4 v0000025eb2080090_0;
+    %cmpi/e 6, 0, 3;
+    %jmp/0xz  T_2.13, 4;
+    %pushi/vec4 1, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %pushi/vec4 0, 0, 4;
+    %assign/vec4 v0000025eb207fd70_0, 0;
+    %jmp T_2.14;
+T_2.13 ;
+    %load/vec4 v0000025eb20010e0_0;
+    %subi 1, 0, 4;
+    %load/vec4 v0000025eb207fd70_0;
+    %cmp/u;
+    %flag_or 5, 4;
+    %jmp/0xz  T_2.15, 5;
+    %pushi/vec4 0, 0, 4;
+    %assign/vec4 v0000025eb207fd70_0, 0;
+    %load/vec4 v0000025eb2080090_0;
+    %dup/vec4;
+    %pushi/vec4 0, 0, 3;
+    %cmp/u;
+    %jmp/1 T_2.17, 6;
+    %dup/vec4;
+    %pushi/vec4 1, 0, 3;
+    %cmp/u;
+    %jmp/1 T_2.18, 6;
+    %dup/vec4;
+    %pushi/vec4 2, 0, 3;
+    %cmp/u;
+    %jmp/1 T_2.19, 6;
+    %dup/vec4;
+    %pushi/vec4 3, 0, 3;
+    %cmp/u;
+    %jmp/1 T_2.20, 6;
+    %dup/vec4;
+    %pushi/vec4 4, 0, 3;
+    %cmp/u;
+    %jmp/1 T_2.21, 6;
+    %dup/vec4;
+    %pushi/vec4 5, 0, 3;
+    %cmp/u;
+    %jmp/1 T_2.22, 6;
+    %pushi/vec4 0, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.24;
+T_2.17 ;
+    %pushi/vec4 1, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.24;
+T_2.18 ;
+    %pushi/vec4 2, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.24;
+T_2.19 ;
+    %pushi/vec4 3, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.24;
+T_2.20 ;
+    %pushi/vec4 4, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.24;
+T_2.21 ;
+    %pushi/vec4 5, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.24;
+T_2.22 ;
+    %pushi/vec4 0, 0, 3;
+    %assign/vec4 v0000025eb2080090_0, 0;
+    %jmp T_2.24;
+T_2.24 ;
+    %pop/vec4 1;
+    %jmp T_2.16;
+T_2.15 ;
+    %load/vec4 v0000025eb207fd70_0;
+    %addi 1, 0, 4;
+    %assign/vec4 v0000025eb207fd70_0, 0;
+T_2.16 ;
+T_2.14 ;
+T_2.3 ;
+T_2.1 ;
+    %jmp T_2;
+    .thread T_2;
+    .scope S_0000025eb202caf0;
+T_3 ;
+    %wait E_0000025eb1ffbbe0;
+    %load/vec4 v0000025eb207ff50_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_3.0, 8;
+    %pushi/vec4 0, 0, 4;
+    %assign/vec4 v0000025eb2002e30_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000025eb1ffed50_0, 0;
+    %jmp T_3.1;
+T_3.0 ;
+    %load/vec4 v0000025eb207fb90_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_3.2, 8;
+    %load/vec4 v0000025eb2002e30_0;
+    %cmpi/u 4, 0, 4;
+    %flag_inv 5; GE is !LT
+    %jmp/0xz  T_3.4, 5;
+    %pushi/vec4 0, 0, 4;
+    %assign/vec4 v0000025eb2002e30_0, 0;
+    %load/vec4 v0000025eb1ffed50_0;
+    %inv;
+    %assign/vec4 v0000025eb1ffed50_0, 0;
+    %jmp T_3.5;
+T_3.4 ;
+    %load/vec4 v0000025eb2002e30_0;
+    %addi 1, 0, 4;
+    %assign/vec4 v0000025eb2002e30_0, 0;
+T_3.5 ;
+    %jmp T_3.3;
+T_3.2 ;
+    %pushi/vec4 0, 0, 4;
+    %assign/vec4 v0000025eb2002e30_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000025eb1ffed50_0, 0;
+T_3.3 ;
+T_3.1 ;
+    %jmp T_3;
+    .thread T_3;
+    .scope S_0000025eb2002ca0;
+T_4 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000025eb20801d0_0, 0, 1;
+T_4.0 ;
+    %delay 5000, 0;
+    %load/vec4 v0000025eb20801d0_0;
+    %inv;
+    %store/vec4 v0000025eb20801d0_0, 0, 1;
+    %jmp T_4.0;
+    %end;
+    .thread T_4;
+    .scope S_0000025eb2002ca0;
+T_5 ;
+    %wait E_0000025eb1ffb660;
+    %load/vec4 v0000025eb207fa50_0;
+    %cmpi/e 1, 0, 3;
+    %flag_get/vec4 4;
+    %jmp/0 T_5.2, 4;
+    %load/vec4 v0000025eb2080130_0;
+    %pushi/vec4 1, 0, 3;
+    %cmp/e;
+    %flag_get/vec4 4;
+    %and;
+T_5.2;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_5.0, 8;
+    %vpi_call 2 37 "$display", "*** SAFETY VIOLATION at %0t: main_signal and side_signal both GREEN ***", $time {0 0 0};
+T_5.0 ;
+    %jmp T_5;
+    .thread T_5;
+    .scope S_0000025eb2002ca0;
+T_6 ;
+    %wait E_0000025eb1ffb660;
+    %load/vec4 v0000025eb2080090_0;
+    %cmpi/e 6, 0, 3;
+    %flag_get/vec4 4;
+    %jmp/0 T_6.2, 4;
+    %load/vec4 v0000025eb2080130_0;
+    %pushi/vec4 4, 0, 3;
+    %cmp/ne;
+    %flag_get/vec4 4;
+    %and;
+T_6.2;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_6.0, 8;
+    %vpi_call 2 47 "$display", "*** PREEMPTION SAFETY VIOLATION at %0t: entered PREEMPT_HOLD with side_signal not RED ***", $time {0 0 0};
+T_6.0 ;
+    %jmp T_6;
+    .thread T_6;
+    .scope S_0000025eb2002ca0;
+T_7 ;
+    %wait E_0000025eb1ffaee0;
+    %load/vec4 v0000025eb2080090_0;
+    %store/vec4 v0000025eb1ffe490_0, 0, 3;
+    %callf/vec4 TD_tb_guardian_school_zone_controller.state_name, S_0000025eb1ffebc0;
+    %vpi_call 2 67 "$display", "t=%0t : state -> %0s  (ped_request=%b, emergency_request=%b, reset=%b)", $time, S<0,vec4,u96>, v0000025eb207fff0_0, v0000025eb20806d0_0, v0000025eb207faf0_0 {1 0 0};
+    %jmp T_7;
+    .thread T_7, $push;
+    .scope S_0000025eb2002ca0;
+T_8 ;
+    %vpi_call 2 71 "$dumpfile", "guardian_school_zone.vcd" {0 0 0};
+    %vpi_call 2 72 "$dumpvars", 32'sb00000000000000000000000000000000, S_0000025eb2002ca0 {0 0 0};
+    %vpi_call 2 77 "$display", "\012--- TEST 1: Reset ---" {0 0 0};
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000025eb207faf0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000025eb207fff0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000025eb20806d0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000025eb207f7d0_0, 0, 1;
+    %delay 12000, 0;
+    %load/vec4 v0000025eb2080090_0;
+    %cmpi/e 0, 0, 3;
+    %jmp/0xz  T_8.0, 4;
+    %vpi_call 2 80 "$display", "PASS: state is GO_MAIN during reset" {0 0 0};
+T_8.0 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000025eb207faf0_0, 0, 1;
+    %vpi_call 2 88 "$display", "\012--- TEST 2: Normal operation, one full cycle ---" {0 0 0};
+    %delay 260000, 0;
+    %vpi_call 2 94 "$display", "\012--- TEST 3: ped_request during GO_MAIN (expect shortened green) ---" {0 0 0};
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000025eb207fff0_0, 0, 1;
+    %delay 40000, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000025eb207fff0_0, 0, 1;
+    %delay 80000, 0;
+    %vpi_call 2 103 "$display", "\012--- TEST 4 (edge case): ped_request during GO_SIDE (expect NO effect) ---" {0 0 0};
+T_8.2 ;
+    %load/vec4 v0000025eb2080090_0;
+    %pushi/vec4 3, 0, 3;
+    %cmp/e;
+    %flag_get/vec4 4;
+    %cmpi/ne 1, 0, 1;
+    %jmp/0xz T_8.3, 6;
+    %wait E_0000025eb1ffaee0;
+    %jmp T_8.2;
+T_8.3 ;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000025eb207fff0_0, 0, 1;
+    %delay 30000, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000025eb207fff0_0, 0, 1;
+    %delay 70000, 0;
+    %vpi_call 2 118 "$display", "\012--- TEST 5 (edge case): emergency_request asserted during GO_SIDE ---" {0 0 0};
+T_8.4 ;
+    %load/vec4 v0000025eb2080090_0;
+    %pushi/vec4 3, 0, 3;
+    %cmp/e;
+    %flag_get/vec4 4;
+    %cmpi/ne 1, 0, 1;
+    %jmp/0xz T_8.5, 6;
+    %wait E_0000025eb1ffaee0;
+    %jmp T_8.4;
+T_8.5 ;
+    %delay 15000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000025eb20806d0_0, 0, 1;
+    %delay 80000, 0;
+    %load/vec4 v0000025eb2080090_0;
+    %cmpi/e 6, 0, 3;
+    %jmp/0xz  T_8.6, 4;
+    %vpi_call 2 124 "$display", "PASS: controller safely reached PREEMPT_HOLD with main_signal=GREEN, side_signal=RED" {0 0 0};
+T_8.6 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000025eb20806d0_0, 0, 1;
+    %delay 60000, 0;
+    %vpi_call 2 131 "$display", "\012--- TEST 6 (edge case): reset asserted mid-cycle ---" {0 0 0};
+    %delay 35000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000025eb207faf0_0, 0, 1;
+    %delay 10000, 0;
+    %load/vec4 v0000025eb2080090_0;
+    %cmpi/e 0, 0, 3;
+    %jmp/0xz  T_8.8, 4;
+    %vpi_call 2 136 "$display", "PASS: mid-cycle reset forced state back to GO_MAIN" {0 0 0};
+    %jmp T_8.9;
+T_8.8 ;
+    %vpi_call 2 138 "$display", "FAIL: state after mid-cycle reset was %0d, expected 0 (GO_MAIN)", v0000025eb2080090_0 {0 0 0};
+T_8.9 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000025eb207faf0_0, 0, 1;
+    %delay 40000, 0;
+    %vpi_call 2 145 "$display", "\012--- TEST 7: school_hours beacon check ---" {0 0 0};
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000025eb207f7d0_0, 0, 1;
+    %delay 200000, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000025eb207f7d0_0, 0, 1;
+    %delay 30000, 0;
+    %vpi_call 2 150 "$display", "Beacon test complete (see beacon_light in waveform for flashing pattern)" {0 0 0};
+    %vpi_call 2 152 "$display", "\012--- Simulation complete ---" {0 0 0};
+    %vpi_call 2 153 "$finish" {0 0 0};
+    %end;
+    .thread T_8;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tb_guardian_school_zone_controller.v";
+    "guardian_school_zone_controller.v";
